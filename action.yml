@@ -1,0 +1,13 @@
+name: Envsubst
+author: nownabe
+description: Substitutes the values of environment variables
+inputs:
+  input:
+    description: Path to the input file
+    required: true
+  output:
+    description: Path to the output file
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
