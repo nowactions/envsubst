@@ -1,0 +1,21 @@
+name: Test
+
+on: [pull_request]
+
+jobs:
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - uses: ./
+        with:
+          input: ./test/template
+          output: ./test/output
+        env:
+          NAME: world
+      - name: Test
+        run: '[[ "$(cat ./test/output)" = "Hello, world" ]]'
