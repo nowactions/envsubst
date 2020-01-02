@@ -18,5 +18,7 @@ jobs:
           output: ./test/output
         env:
           NAME: world
+      - name: Print output
+        run: cat ./test/output
       - name: Test
         run: '[[ "$(cat ./test/output)" = "Hello, world" ]]'
