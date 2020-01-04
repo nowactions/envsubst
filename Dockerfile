@@ -1,6 +1,6 @@
 FROM alpine:3.11.2
 
-LABEL version="1.0.0"
+LABEL version="1.0.1"
 LABEL maintainer="nownabe"
 LABEL com.github.actions.name="Simple Envsubst"
 LABEL com.github.actions.description="Substitutes the values of environment variables"
