@@ -44,7 +44,7 @@ jobs:
           IMAGE_TAG: gcr.io/myprj/app:${{ github.sha }}
 
       - name: Render Deployment YAML
-        uses: nowactions/envsubst@master
+        uses: nowactions/envsubst@v1
         with:
           input: ./deployment.yaml.tmpl
           output: ./deployment.yaml
