@@ -55,3 +55,11 @@ jobs:
       - name: Deploy
         run: kubectl apply -f ./deployment.yaml
 ```
+
+## Development
+
+### Release
+
+* Bump up the version in Dockerfile
+* Commit the changes
+* Run `make release`
