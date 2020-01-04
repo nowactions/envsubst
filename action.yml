@@ -1,4 +1,4 @@
-name: Envsubst
+name: Simple Envsubst
 author: nownabe
 description: Substitutes the values of environment variables
 inputs:
