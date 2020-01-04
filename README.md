@@ -22,7 +22,7 @@ For more information, reference the GitHub Help Documentation for [Creating a wo
 
 ## Example
 
-```
+```yml
 name: Deploy app to Kubernetes
 
 on:
