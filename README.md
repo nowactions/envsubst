@@ -2,6 +2,7 @@
 
 [![Test](https://github.com/nowactions/envsubst/workflows/Test/badge.svg)](https://github.com/nowactions/envsubst/actions)
 [![Release](https://img.shields.io/github/release/nowactions/envsubst.svg)](https://github.com/nowactions/envsubst/releases)
+[![License](https://img.shields.io/github/license/nowactions/envsubst)](LICENSE)
 
 This GitHub Action substitutes the values of environment variables using envsubst.
 This Action is provided as a Docker action, so it works only on Linux machines.
