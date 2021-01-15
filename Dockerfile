@@ -1,4 +1,4 @@
-FROM alpine:3.11.6
+FROM alpine:3.13.0
 
 LABEL version="1.0.1"
 LABEL maintainer="nownabe"
