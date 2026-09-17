@@ -7,7 +7,7 @@ LABEL com.github.actions.description="Substitutes the values of environment vari
 LABEL com.github.actions.icon="file-text"
 LABEL com.github.actions.color="red"
 
-RUN apk add --update --no-cache gettext=0.20.1-r2
+RUN apk add --update --no-cache gettext=1.0-r0
 
 COPY ./entrypoint.sh /entrypoint.sh
 
